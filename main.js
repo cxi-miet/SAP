@@ -1,129 +1,25 @@
-function show() {
-  var x = document.getElementById("d1");
-  var y = document.getElementById("1");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d2").style.display = "none";
-  document.getElementById("d3").style.display = "none";
-  document.getElementById("d4").style.display = "none";
-  document.getElementById("d5").style.display = "none";
-  document.getElementById("d6").style.display = "none";
-  document.getElementById("2").value = "View";
-  document.getElementById("3").value = "View";
-  document.getElementById("4").value = "View";
-  document.getElementById("5").value = "View";
-  document.getElementById("6").value = "View";
-}
-function show1() {
-  var x = document.getElementById("d2");
-  var y = document.getElementById("2");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d1").style.display = "none";
-  document.getElementById("d3").style.display = "none";
-  document.getElementById("d4").style.display = "none";
-  document.getElementById("d5").style.display = "none";
-  document.getElementById("d6").style.display = "none";
-  document.getElementById("1").value = "View";
-  document.getElementById("3").value = "View";
-  document.getElementById("4").value = "View";
-  document.getElementById("5").value = "View";
-  document.getElementById("6").value = "View";
-}
-function show2() {
-  var x = document.getElementById("d3");
-  var y = document.getElementById("3");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d1").style.display = "none";
-  document.getElementById("d2").style.display = "none";
-  document.getElementById("d4").style.display = "none";
-  document.getElementById("d5").style.display = "none";
-  document.getElementById("d6").style.display = "none";
-  document.getElementById("1").value = "View";
-  document.getElementById("2").value = "View";
-  document.getElementById("4").value = "View";
-  document.getElementById("5").value = "View";
-  document.getElementById("6").value = "View";
-}
-function show3() {
-  var x = document.getElementById("d4");
-  var y = document.getElementById("4");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d1").style.display = "none";
-  document.getElementById("d2").style.display = "none";
-  document.getElementById("d3").style.display = "none";
-  document.getElementById("d5").style.display = "none";
-  document.getElementById("d6").style.display = "none";
-  document.getElementById("1").value = "View";
-  document.getElementById("2").value = "View";
-  document.getElementById("3").value = "View";
-  document.getElementById("5").value = "View";
-  document.getElementById("6").value = "View";
-}
-function show4() {
-  var x = document.getElementById("d5");
-  var y = document.getElementById("5");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d1").style.display = "none";
-  document.getElementById("d2").style.display = "none";
-  document.getElementById("d3").style.display = "none";
-  document.getElementById("d4").style.display = "none";
-  document.getElementById("d6").style.display = "none";
-  document.getElementById("1").value = "View";
-  document.getElementById("2").value = "View";
-  document.getElementById("3").value = "View";
-  document.getElementById("4").value = "View";
-  document.getElementById("6").value = "View";
-}
-function show5() {
-  var x = document.getElementById("d6");
-  var y = document.getElementById("6");
-  if (x.style.display == "none") {
-    x.style.display = "block";
-    y.value = "Close";
-  } else {
-    x.style.display = "none";
-    y.value = "View";
-  }
-  document.getElementById("d1").style.display = "none";
-  document.getElementById("d2").style.display = "none";
-  document.getElementById("d3").style.display = "none";
-  document.getElementById("d4").style.display = "none";
-  document.getElementById("d5").style.display = "none";
-  document.getElementById("1").value = "View";
-  document.getElementById("2").value = "View";
-  document.getElementById("3").value = "View";
-  document.getElementById("4").value = "View";
-  document.getElementById("5").value = "View";
-}
+const vbuttons = document.querySelectorAll(".viewmodal");
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+vbuttons.forEach(vbutton => {
+  vbutton.addEventListener("click", e => {
+    var desc = e.target.nextElementSibling.children[0];
+    //console.log(desc);
+    var newnode = desc.cloneNode(true);
+    var adjspan = span.nextElementSibling;
+    if (adjspan) span.parentElement.replaceChild(newnode, adjspan);
+    else span.insertAdjacentElement("afterend", newnode);
+    modal.style.display = "block";
+  });
+});
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  //console.log(this);
+  modal.style.display = "none";
+};
+
 //Hamburger Menu Toggle start
 $(".navbar-nav li a").click(function(event) {
   // check if window is small enough so dropdown is created
@@ -132,9 +28,6 @@ $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse("hide");
   }
 });
-//Hamburger Menu Toggle end
-// Get the modal
-var modal = document.getElementById("id01");
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
