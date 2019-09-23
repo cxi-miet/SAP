@@ -153,17 +153,18 @@ body {
   padding: 10px 25px !important;
 }
 #usecase {
-  background: #f2994a; /* fallback for old browsers */
+  background: #3ca55c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #f2c94c,
-    #f2994a
+    #b5ac49,
+    #3ca55c
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #f2c94c,
-    #f2994a
+    #b5ac49,
+    #3ca55c
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 20px;
   color: black;
   font-weight: 700;
