@@ -17,10 +17,15 @@ h6 {
 .logo {
   display: inline;
 }
-
+.navbar-brand {
+  font-weight: 700;
+  margin-top: -12px;
+}
 .navbar-brand img {
   position: relative;
+  right: 10px;
   bottom: 5px;
+  opacity: 0.3;
 }
 
 .header {
@@ -48,16 +53,17 @@ h6 {
   left: 16px;
   padding-top: 51px;
   filter: drop-shadow(0 0 6px #efefef);
+  margin-top: 10px;
 }
 
-#udyat-logo {
+#iic-logo {
   font-weight: 800;
   font-size: 300%;
   color: black;
   position: absolute;
   top: 2%;
   right: 26px;
-  filter: drop-shadow(0 0 6px #efefef);
+  filter: drop-shadow(0 0 15px #ffffff);
   padding-top: 61px;
 }
 
@@ -70,7 +76,8 @@ h2 {
   #miet-logo img {
     width: 60% !important;
   }
-  #udyat-logo {
+  #iic-logo {
+    max-width: 40%;
     font-size: 80% !important;
     right: 16px !important;
   }
@@ -78,9 +85,14 @@ h2 {
   h2 {
     font-size: 350% !important;
   }
+  .navbar-brand {
+    font-weight: 700;
+    margin-top: -7px;
+  }
   .navbar-brand img {
     width: 50% !important;
     bottom: 0 !important;
+    right: 0;
   }
   .jumbotron p,
   h2 {
@@ -89,10 +101,7 @@ h2 {
     /*margin-bottom: -30px !important;*/
     font-size: 150% !important;
   }
-  #timeline {
-    color: white !important;
-  }
-  #timeline > h5 {
+  #timeline > h3 {
     color: white !important;
   }
   .carousel-inner > .item {
@@ -366,5 +375,12 @@ footer i {
 }
 
 ol {
+  padding: 20px;
+}
+ul[type="disc"] {
+  margin: 20px 0;
+}
+ul[type="disc"] li {
+  font-size: 150%;
   padding: 20px;
 }
