@@ -1,0 +1,414 @@
+<table style="width:100%" border="1px" bgcolor="grey" id="res">
+          <tr>
+            <th>NO.</th>
+
+            <th>APPLICATION DOMAIN</th>
+
+            <th>TECHNOLOGY USED</th>
+            <th>Action</th>
+          </tr>
+          <tr>
+            <td align="center">1:</td>
+            <td>
+              DISCRETE MANUFACTURING INDUSTRY FOR MAKE-TO-ORDER PRODUCTION
+              STRATEGY.
+            </td>
+            <td>SAP S/4HANA , SAP Fiori</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        In a Make-to-Order scenario, once Sales Orders are
+                        received from a customer, subsequent Planned Orders and
+                        Production Orders are generated against it. It may
+                        happen that in the meanwhile, another Sales Order for
+                        the same product and/or spares with same configuration
+                        is received from a Premium customer. In such a scenario,
+                        the Sales agents need to have the flexibility to divert
+                        an existing order to the premium customer to enable
+                        faster delivery to him. To do so, a Sales agent taking
+                        the order needs to check beforehand if there is any
+                        product already in pipeline for another Sales Order. If
+                        yes, the agent can commit a shorter delivery date and
+                        create a Sales Order with the same.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">2:</td>
+            <td>F1 RACING</td>
+            <td>SAP fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table class="desc" width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        F1 race drivers have to take critical decision of
+                        stopping at the pit for repairs and part replacements
+                        during a race. This decision sets them back a few
+                        critical seconds but it is important to have the car in
+                        good condition to run optimally till the finish line.
+                        The vital stats that must be available to the driver at
+                        all times are as follows:
+                        <br />• Current Speed <br />• Fuel left & Tank Capacity
+                        <br />• Tire condition (How many km it can run without
+                        tire wearing off) <br />• Engine Heat <br />• Next Pit
+                        distance <br />• Distance to Finish line <br />• Gap
+                        between the driver and race leader, etc. <br />It is
+                        imperative for a driver to take this tough decision
+                        multiple times during a single race. Correct decision
+                        making can prove to be the difference between winning
+                        and losing.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">3:</td>
+            <td>INDUSTRIAL MACHINERY AND HEAVY EQUIPEMENT</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <br />
+
+                        There is an automobile manufacturing company that deals
+                        with production of Light Motor Vehicles. It has 3 plants
+                        across India where vehicles are produced. The factory
+                        supervisors are facing problems with Heat Treatment
+                        Furnace machines. Due to high temperature operations for
+                        extended hours, some machines break down and require
+                        high setup and maintenance time leading to loss of
+                        production.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">4:</td>
+            <td>ENTERPRIZE ASSET MANAGEMENT</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <br />
+                        Manage all types of assets by defining and describing
+                        asset capabilities, developing hierarchal relationships,
+                        monitoring specific asset details.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">5:</td>
+            <td>SERVICE DESK MANAGEMENT</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        The customer that is associated with a ticket in the
+                        ticket application determines the classifications,
+                        assets, configuration items (CIs), or locations that are
+                        processed with the ticket. You can restrict users from
+                        seeing tickets for specified customers. You can apply a
+                        customer agreement or price schedule to a ticket if the
+                        ticket has an active customer associated with it.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">6:</td>
+            <td>TALENT AQCUISITION</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Place to publish job openings.</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">7:</td>
+            <td>HEALTH MANAGEMENT SYSTEM</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        HMS Software streamlines and integrates the operations,
+                        processed and information flow in hospitals. Its main
+                        objective is to enhance patient care, improve work
+                        efficiency, improve fiscal control, enable the growth of
+                        the organization by keeping track of each and everything
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">8:</td>
+            <td>LEARNING MANAGEMENT SYSTEM FOR ORGANISATIONS</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        With e- Learning courses available in the LMS on demand,
+                        any immediate training needs can be met quickly and
+                        effectively, thus laying a foundation for performance
+                        improvement.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">9:</td>
+            <td>E-COMMERCE COMPANY DEALING WITH SALES AND DELIVERY</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        The problem statement is with respect to an e-commerce
+                        company that deals with sale and delivery of commodities
+                        made via online purchases. The company operates through
+                        a large warehouse that stores the inventory involved in
+                        sale/purchase. There are multiple layers of business
+                        processes involved that help run this company, when it
+                        comes to warehouse management. The following layers must
+                        be logically thought and imitated using SAP HANA and
+                        Fiori applications:
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">10:</td>
+            <td>
+              CREATE DASHBOARDS FOR FOLLOWING 3 LEVELS OF BUSINESS PROCESSES
+            </td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        <br />
+                        • Procurement: Display the products trending in demand,
+                        availability of the products to be purchased from the
+                        end level sellers and shopkeepers.
+                        <br />• Production: Costs involved in performing any
+                        additional packaging or quality related processes,
+                        Display the quantity of the products’ actual demand and
+                        existing supply. <br />• Dispatch: Dashboard to display
+                        all the available freight and logistics agents available
+                        to perform the dispatch, regions (cities and states)
+                        where dispatch is required.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">11:</td>
+            <td>EMPLOYEE MANAGEMENT SYSTEM</td>
+            <td>SAP Fiori</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        To design an e-profile application that displays and
+                        maintains the details like career history,
+                        organizational commitments and accomplishments for all
+                        the employees associated with the organization. The idea
+                        is to have this application give a quick glimpse of an
+                        employee’s profile, which helps both, socially as well
+                        as workwise the company to develop a better
+                        understanding of the employee. Also to develop a SAP
+                        Fiori application, with a well-tailored UI for an
+                        efficient work organization and management system. The
+                        idea involved pertaining to this application is to
+                        organize and schedule the tasks assigned to him/her,
+                        with the features given below.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">12:</td>
+            <td>CUSTOMER DATA ANALYTICS</td>
+            <td>
+              SAP HANA Cloud Platform (integrated with Twitter) AND SAP Lumira
+            </td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>
+                        In order to enhance the customer-organization relations
+                        and product related service, design an application based
+                        on SAP HANA that analyses the tweets posted by a
+                        customer on an organization’s official Twitter Handle
+                        and performs the following tasks.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="center">13:</td>
+            <td>EDUCATION MANAGEMENT SYSTEM FOR SCHOOLS AND COLLEGES</td>
+            <td>SAP S/4HANA , SAP Fiori , SAP Predictive Analytics</td>
+            <td>
+              <input type="Button" value="View" class="viewmodal" />
+              <div style="display:none;">
+                <table width="90%" border="3px">
+                  <tr>
+                    <th bgcolor="pink">Description</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      Education Management system will include the student
+                      admission forms and detailed information about the
+                      students will be stored.
+                    </td>
+                  </tr>
+                </table>
+
+                <br />
+              </div>
+            </td>
+          </tr>
+        </table>

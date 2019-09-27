@@ -67,6 +67,15 @@ h6 {
   padding-top: 61px;
 }
 
+#sap-logo {
+  position: absolute;
+  top: 10%;
+  left: 16px;
+  padding-top: 71px;
+  max-width: 125px;
+  margin-top: 10px;
+}
+
 .carousel-caption > h1,
 h2 {
   font-family: "Orbitron", sans-serif !important;
@@ -162,21 +171,26 @@ body {
   padding: 10px 25px !important;
 }
 #usecase {
-  background: #3ca55c; /* fallback for old browsers */
+  background: #dd5e89; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #b5ac49,
-    #3ca55c
+    #f7bb97,
+    #dd5e89
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #b5ac49,
-    #3ca55c
+    #f7bb97,
+    #dd5e89
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  padding: 20px;
-  color: black;
+  padding: 30px;
+  color: white;
   font-weight: 700;
+  font-size: 1.3em;
+}
+#usecase p {
+  margin: 3%;
+  padding: 3%;
 }
 #team {
   background: #085078;
@@ -189,7 +203,19 @@ body {
   font-family: cursive;
   text-align: center;
 }
-
+#committee {
+  padding: 30px;
+}
+#committee .name {
+  font-weight: 700;
+  font-family: cursive;
+}
+#committee .title {
+  font-weight: 700;
+  font-family: cursive;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
 #team .fab,
 #team .fas,
 .fa {
